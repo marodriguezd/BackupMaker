@@ -1,0 +1,10 @@
+# Ignorar directorios generados por IDEs
+/.idea/
+
+# Ignorar directorios generados por PyInstaller
+/build/
+/dist/
+*.spec
+
+# Ignorar entorno virtual
+.venv/
