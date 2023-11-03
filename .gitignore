@@ -1,3 +1,4 @@
 # Ignorar lo que no es necesario
 /build/
 /dist/
+*.spec
