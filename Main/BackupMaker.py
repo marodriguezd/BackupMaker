@@ -115,30 +115,3 @@ load_paths()
 
 # Iniciar el bucle de la interfaz gráfica
 root.mainloop()
-
-# import os
-# import zipfile
-# from datetime import datetime
-# import re
-#
-#
-# def create_zip(folder_path, folder_name):
-#     # Genera el nombre del archivo ZIP basado en la fecha y hora actual
-#     timestamp = datetime.now().strftime("%Y%m%d_%H%M")
-#     zip_name = f"{folder_name}_Backup_{timestamp}.zip"
-#     zip_path = os.path.join(os.path.dirname(folder_path), zip_name)
-#
-#     # Crea un archivo ZIP de la carpeta 'Better_Than_Adventure' y su contenido
-#     with zipfile.ZipFile(zip_path, 'w', zipfile.ZIP_DEFLATED) as zipf:
-#         for root, _, files in os.walk(folder_path):
-#             for file in files:
-#                 file_path = os.path.join(root, file)
-#                 rel_path = os.path.relpath(file_path, folder_path)
-#                 zipf.write(file_path, rel_path)
-#
-#
-# if __name__ == "__main__":
-#     folder_path = r'C:\Users\marod\Documents\MultiMC\instances\BTA_MANAGED_INSTANCE\.minecraft\saves\Better_Than_Adventure'
-#     folder_name = re.findall(r'\\([^\\]+)\\?$', folder_path)[0]
-#
-#     create_zip(folder_path, folder_name)
