@@ -1,4 +1,4 @@
-# Ignorar lo que no es necesario
+# Ignorar cosas relacionadas a compilación (PyInstaller)
 /build/
 /dist/
 *.spec
