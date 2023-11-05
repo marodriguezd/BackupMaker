@@ -84,7 +84,7 @@ def backup():
 
 
 def save_paths():
-    bm = BackupController(button_select_folder.get(), button_select_destination.get())
+    bm = BackupController(entry_folder_path.get(), entry_destination_path.get())
     bm.save_paths()
 
 
