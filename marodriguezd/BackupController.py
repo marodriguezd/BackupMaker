@@ -87,4 +87,9 @@ class BackupController:
                 paths = pickle.load(file)
                 return paths
         except FileNotFoundError:
-            pass
+            paths = {
+                "folder_path": "",
+                "destination_path": ""
+            }
+
+            return paths
