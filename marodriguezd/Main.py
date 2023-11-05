@@ -1,10 +1,5 @@
-import os
-import zipfile
-from datetime import datetime
 import tkinter as tk
 from tkinter import filedialog
-import pickle
-
 from BackupController import BackupController
 
 
